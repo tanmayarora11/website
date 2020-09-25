@@ -4,8 +4,9 @@
 }
 body
 {
-    background: linear-gradient(to right,rgba(125, 0, 230, 0.9),rgba(200,0,222,0.8));
+    background: linear-gradient(to right,rgba(181, 128, 224, 0.9),rgba(215, 117, 226, 0.8));
     margin:0;
+    z-index: -1;
 }
 div
 {
@@ -47,8 +48,7 @@ div
     left: -35px;
     margin-left: 10px;
     font-size: 20px;
-}
-    
+}   
 #left-menu
 {
     padding:8px;
