@@ -7,18 +7,31 @@
         <title>Join us</title>
     </head>
 <body>
-    <p><strong>Fill the form below to Join Us</strong></p>
-    <em>The details are required so that we can know about you</em><br>
-    <form>
-        <label for="Name">Name: </label><input type="text" name="name" id="Name"/><br>
-        <label for="Email">Email: </label><input type="email" id="Email" name="mail"/><br>
-        <label for="gender">Gender: </label><br>
-        <input type="radio" name="gender" id="male" value="Male"/><label for="male">Male</label>
-        <input type="radio" name="gender" id="female" value="Female"/><label for="female">Female</label>
-        <input type="radio" name="gender" id="other" value="Other"/><label for="other">Other</label><br>
-        <label for="date">DOB: </label><input type="date" name="dob" id="date"/><br>
-        <input type="checkbox" name="check">I agree to all the terms and conditions<br>
-        <input type="submit" value="submit">
+    <header>
+		<nav>
+			<div id="left-menu">
+				<span><a href="index.html"><img id="logo" src="images/design.jfif" alt="course logo"></a>
+                <h1 id="learn">HERE TO LEARN</h1></span>
+            </div>
+        </nav>
+    </header>
+
+    <div>
+        <p><strong>Fill the form below to Join Us</strong></p>
+        <em>The details are required so that we can know about you</em><br>
+    </div>
+    <form id="form" method="post">
+		<h2 id="top">JOIN US</h2>
+        <label for="first Name">First Name: </label><input class="name" type="text" name="first name" id="Name"/><br>
+        <label for="last Name">Last Name: </label><input class="name" type="text" name="last name" id="Name"/><br>
+		<label for="Email">Email: </label><input class="form-box" type="email" id="Email" name="mail"/><br>
+		<label for="gender">Gender: </label><br>
+		<input type="radio" name="gender" id="male" value="Male"/><label for="male">Male</label>
+		<input type="radio" name="gender" id="female" value="Female"/><label for="female">Female</label>
+		<input type="radio" name="gender" id="other" value="Other"/><label for="other">Other</label><br>
+		<label for="date">DOB: </label><input class="form-box" type="date" name="dob" id="date"/><br>
+		<input type="checkbox" name="check">I agree to all the terms and conditions<br>
+		<input id="sbs_btn" type="submit" value="submit">
     </form>
 </body>
 </html>
