@@ -1,28 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width==device-width, intial-scale=1.0">
-        <title>Index page</title>
-    </head>
-<body bgcolor="lavenderblush">
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Index Page</title>
+	<script src="https://kit.fontawesome.com/d85673654f.js" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width,intitial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
     <header>
-        <nav>
-            <span><a href="index.html" target="h_iframe"> INDEX | </a></span>
-            <span><a href="home.html" taeget="h_iframe"> HOME | </a></span>
-            <span><a href="about.html" target="h_iframe"> ABOUT | </a></span>
-            <span><a href="services.html"target="h_iframe"> SERVICES | </a></span>
-            <span><a href="contact.html"target="h_iframe"> CONTACT US </a></span>
-        </nav>
-    </header>
-    <hr>
-<main>
-    <h1>WELCOME!!</h1>
-    <img src="images/achiever.jfif" alt="a learner on a way to achieve success">
-    <p>Get various information about us<br>
-    <br>Feel free to navigate through above menu items</p>
-    <iframe src="about.html" frameborder="2px" name="h_iframe" height="50%" width="100%" ></iframe>
-</main>
-<footer>&copy;Tanmay Arora</footer>
+		<nav>
+			<div id="left-menu">
+				<span><a href="index.html"><img id="logo" src="images/design.jfif" alt="course logo"></a>
+                <h1 id="learn">HERE TO LEARN</h1></span>
+			</div>
+
+			<div id="right-menu">
+			<a class="menu-items" href="home.html">Home</a>
+			<a class="menu-items" href="about.html">About</a>
+			<div id="dropdown">
+				<img id="list_icon" src="images/list-24px.svg" alt="list"/>
+				<div id="course-wrapper">
+					<ul style="list-style-type: none">
+						<li style="font-weight: bold;font-size: 20px;">List of Courses</li>
+						<li><a href="business.html">Business and Marketing</a></li>
+						<li><a href="ML.html">Science and innovations</a></li>
+						<li><a href="film.html">Film making</a></li>
+						<li><a href="content_writing.html">Creative Arts</a></li>
+						<li><a href="web.html">Computer and Technology</a></li>
+					</ul>
+				</div>
+			</div>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<section id="sec_ind">
+			<div id="sbs">
+			<img id="course_img" src="images/courses.jfif" alt="courses" />
+			</div>
+		</section>
+		<aside id="aside_ind">
+		<form id="form" method="post">
+			<h2 id="top">JOIN US</h2>
+		<div>
+			<input class="name" type="text" name="firstname" placeholder="First name" required>
+			<input class="name" type="text" name="lastname" placeholder="Last name" required>
+		</div>
+		<div>
+			<br><input class="form-box" type="email" name="email" required placeholder="email">
+		</div>
+		<div>
+			<br><input class="form-box" type="password" name="password" placeholder="password" required minlength="8" maxlength="16">
+		</div>
+		<div>
+			<br><input class="form-box" type="password" name="confirmpassword" placeholder="confirm-password" minlength="8" maxlength="16" required>
+		</div>
+		<div>
+			<br><input type="checkbox" >I agree to all the terms and conditions
+		</div>
+			<button id="sbs_btn">Register</button>
+	</form>
+			
+		</aside>
+	</main>
+	<footer>
+        <h3>Contact us</h3>
+        <div id="details"></div>
+		<div id="contact">
+		<button class="social_link"><i class="far fa-envelope"> &nbsp;Gmail</i></button>
+		<button class="social_link"><i class="fab fa-github"> &nbsp;Github</i></button>
+		<button class="social_link"><i class="fab fa-facebook"> &nbsp;Facebook</i></button>
+		<button class="social_link"><i class="fab fa-instagram"> &nbsp;Instagram</i></button>
+		<button class="social_link"><i class="fab fa-linkedin"> &nbsp;Linkedin</i></button>
+		<button class="social_link"><i class="fab fa-twitter"> &nbsp;Twitter</i></button>
+		</div>
+	</footer>
+
 </body>
 </html>

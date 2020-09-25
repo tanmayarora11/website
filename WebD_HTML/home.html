@@ -3,23 +3,40 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width==device-width, intial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <title>Home page</title>
     </head>
-<body bgcolor="cyan">
-    <header>
-        <nav>
-            <span><a href="index.html" target="h_iframe"> INDEX | </a></span>
-            <span><a href="home.html" taeget="h_iframe"> HOME | </a></span>
-            <span><a href="about.html" target="h_iframe"> ABOUT | </a></span>
-            <span><a href="services.html"target="h_iframe"> SERVICES | </a></span>
-            <span><a href="contact.html"target="h_iframe"> CONTACT US </a></span>
-        </nav>
-    </header>
-    <hr>
+<body>
+	<header>
+		<nav>
+			<div id="left-menu">
+				<span><a href="index.html"><img id="logo" src="images/design.jfif" alt="course logo"></a>
+                <h1 id="learn">HERE TO LEARN</h1></span>
+			</div>
+
+			<div id="right-menu">
+			<a class="menu-items" href="home.html">Home</a>
+			<a class="menu-items" href="about.html">About</a>
+			<div id="dropdown">
+				<img id="list_icon" src="images/list-24px.svg" alt="list"/>
+				<div id="course-wrapper">
+					<ul style="list-style-type: none">
+						<li style="font-weight: bold;font-size: 20px;">List of Courses</li>
+						<li><a href="business.html">Business and Marketing</a></li>
+						<li><a href="ML.html">Science and innovations</a></li>
+						<li><a href="film.html">Film making</a></li>
+						<li><a href="content_writing.html">Creative Arts</a></li>
+						<li><a href="web.html">Computer and Technology</a></li>
+					</ul>
+				</div>
+			</div>
+			</div>
+		</nav>
+	</header>
 <main>
-    <h1 align="center">WELCOME!!</h1>
-    <center><img src="images/learn.jpg" alt="Learn from life" height="40%px" width="60%" ></center>
-    <p align="center"><strong><er>Learning never ends So come join us and keep Learning!!</er></strong></p>
+    <h1 style="text-align:center">WELCOME!!</h1>
+    <center><img src="images/learn.jpg" alt="Learn from life" height="40%px" width="60%" class="image"></center>
+    <p style="text-align:center"><strong><er>Learning never ends So come join us and keep Learning!!</er></strong></p>
 </main>
 <footer>&copy;Tanmay Arora</footer>
 </body>

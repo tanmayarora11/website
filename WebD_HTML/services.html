@@ -3,20 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Services</title>
 </head>
-<body bgcolor="lightgreen">
+<body>
     <header>
-        <nav>
-            <span><a href="index.html" target="h_iframe"> INDEX | </a></span>
-            <span><a href="home.html" taeget="h_iframe"> HOME | </a></span>
-            <span><a href="about.html" target="h_iframe"> ABOUT | </a></span>
-            <span><a href="services.html"target="h_iframe"> SERVICES | </a></span>
-            <span><a href="contact.html"target="h_iframe"> CONTACT US </a></span>
-        </nav>
-    </header>
-    <hr>
-    <table width="20%" border="1px black solid" align="left" cellpadding="10px" cellspacing="5px" bgcolor="lemonchiffon">
+		<nav>
+			<div id="left-menu">
+				<span><a href="index.html"><img id="logo" src="images/design.jfif" alt="course logo"></a>
+                <h1 id="learn">HERE TO LEARN</h1></span>
+			</div>
+
+			<div id="right-menu">
+			<a class="menu-items" href="home.html">Home</a>
+			<a class="menu-items" href="about.html">About</a>
+			<div id="dropdown">
+				<img id="list_icon" src="images/list-24px.svg" alt="list"/>
+				<div id="course-wrapper">
+					<ul style="list-style-type: none">
+						<li style="font-weight: bold;font-size: 20px;">List of Courses</li>
+						<li><a href="business.html">Business and Marketing</a></li>
+						<li><a href="ML.html">Science and innovations</a></li>
+						<li><a href="film.html">Film making</a></li>
+						<li><a href="content_writing.html">Creative Arts</a></li>
+						<li><a href="web.html">Computer and Technology</a></li>
+					</ul>
+				</div>
+			</div>
+			</div>
+		</nav>
+	</header>
+    <table>
         <tr>
             <td>
                 <a href="web.html" target="s_frame">WEBD</a>
@@ -29,12 +46,12 @@
         </tr>
         <tr>
             <td>
-                <a href="join_us.html" target="s_frame">JOIN US</a>
+                <a href="ML.html" target="s_frame">AI/ML</a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="contact.html" target="s_frame">CONTACT US</a>
+                <a href="join_us.html" target="s_frame">JOIN US</a>
             </td>
         </tr>
     </table>

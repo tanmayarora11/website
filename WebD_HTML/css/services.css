@@ -1,0 +1,13 @@
+*{
+    text-shadow: 2ex; 
+    margin:4%;
+}
+body
+{
+    background:linear-gradient(to bottom,rgb(115, 188, 100),rgb(145,200,255));
+    padding:20px;
+}
+h1
+{
+    text-align: center;
+}

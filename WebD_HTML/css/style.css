@@ -1,0 +1,193 @@
+body
+{
+	margin:0;
+	background: #8ef0ff;
+
+}
+#left-menu
+{
+	padding:20px;
+}
+#right-menu
+{
+	text-align:right;
+	padding: 20px;
+	margin-right: 10px;
+}
+#logo
+{
+	width:80px;
+	height:50px;
+}
+main
+{
+	padding:10px 20px;
+	margin:10px;
+}
+#learn{
+	display:inline-block;
+	position:relative;
+	top:-18px;
+	margin-left: 10px;
+}
+header
+{
+	width:100%;
+	height:20%;
+    background:linear-gradient(to bottom right,rgba(0,255,255,0.4),rgba(255,0,255,0.4));
+    position: sticky;
+	background-repeat: no-repeat;
+}
+.menu-items
+{
+	position:relative;
+	top:-10px;
+	font-size: 16px;
+	font-family: arial,sans-serif;
+	text-decoration: none;
+	cursor:pointer;
+	margin:8px;
+}
+.menu-items:hover
+{
+	text-decoration: underline;
+}
+#list_icon
+{
+	position:relative;
+	top:5px;
+	margin:8px;
+}
+#course-wrapper
+{
+	width:300px;
+	position:absolute;
+	right:42px;
+	top:40px;
+	display:none;
+}
+#dropdown
+{
+	display:inline-block;
+}
+li
+{
+	background-color: rgba(200,150,255,0.5);
+	padding:10px;
+	text-align:center;
+}
+#dropdown:hover
+#course-wrapper
+{
+	display:block;
+}
+#form
+{
+	position:relative;
+	left:30%;
+	top:-80px;
+	margin-left: auto;
+	text-align: center;
+	padding:10px 15px 10px 10px;
+	z-index:-1;
+}
+#top
+{
+    display: block;
+    text-align: center;
+    font-size:25px;
+	text-decoration: underline;
+	color:#483d8b;
+	font-family:helvetica,"times new roman";
+}
+.form-box
+{
+	width:96%;
+	margin-right: 2%;
+}
+.name
+{
+	width:45%;
+	margin-right: 2%;
+}
+nav
+{
+	display:flex;
+	justify-content: space-between;
+}
+#sec_ind
+{
+	width:40%;
+	height:60%;
+	border:8px solid #ccc;
+	display:inline-block;
+}
+#aside_ind
+{
+	width:40%;
+	height:60%;
+	display: inline-block;
+}
+
+button
+{
+	border-radius:5px;
+	color:#2f4f4f;
+	background-color:transparent; 
+	cursor: pointer;
+}
+#course_img
+{
+	width:100%;
+}
+#contact
+{
+	display:flex;
+	justify-content: space-around;
+}
+#details
+{
+	display:inline-block;
+}
+.social_link
+{
+	flex-basis:100px;
+	height:30px;
+	border:2px solid #000;
+}
+#sbs
+{
+	text-align: center;
+}
+#sbs_btn
+{
+	background-color:rgb(0,0,255); 
+	font-size:15px;
+	width:80%;
+	color:#fff;
+}
+footer
+{
+	position:relative;
+	bottom:0;
+	width:100%;
+	height:20%;
+	background:linear-gradient(to bottom right,rgba(0,255,255,0.4),rgba(255,0,255,0.4));
+	background-repeat: no-repeat;
+}
+#about
+{
+	display:flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+.abt_img
+{
+	width:20%;
+	height:250px;
+	border:2px black dashed;
+}
+@media screen and (max-width:768px)
+{
+
+}
