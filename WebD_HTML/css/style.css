@@ -137,6 +137,7 @@ button
 {
 	display:flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 }
 .social_link
 {
@@ -247,11 +248,17 @@ footer
 	#details p
 	{
 		display: block;
-		width:100%;
+		width:80%;
+		word-wrap:break-word;
 	}
-	#couse_img
+	#sbs
 	{
 		padding: 0px;
+		margin: 0px;
+	}
+	#sec_ind
+	{
+		border:0px;
 	}
 	.abt_img
 	{
@@ -273,6 +280,11 @@ footer
 	footer
 	{
 		height: 8%;
+		width: 100%;
+	}
+	#contact
+	{
+		flex-wrap: wrap;
 	}
 	.business
 	{
@@ -289,5 +301,12 @@ footer
 		top:40px;
 	}
 	
+}
+@media screen and (max-width:434px)
+{
+	.social_link
+	{
+		flex-basis:20px;
+	}
 }
 
