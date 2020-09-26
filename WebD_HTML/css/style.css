@@ -295,6 +295,20 @@ footer
 		flex-basis:50px;
 		height:30px;
 	}
+	.social_link .ftext
+	{
+		display: inline-block;
+		position: relative;
+		text-align: left;
+		top:-20px;
+	}
+	.social_link .text
+	{
+		display: inline-block;
+		position: relative;
+		text-align: left;
+		top:0px;
+	}
 	#course-wrapper
 	{
 		left:60px;
