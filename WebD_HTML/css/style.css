@@ -179,6 +179,7 @@ footer
 	display: flex;
 	justify-content: space-around;
 	text-align: center;
+      flex-wrap: wrap;
 }
 #webdd
 {
