@@ -176,10 +176,12 @@ footer
 }
 .ser_img
 {
-	display: flex;
-	justify-content: space-around;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	background-color: #2196f3;
+	padding: 10px;
 	text-align: center;
-      flex-wrap: wrap;
+	grid-gap:8px;
 }
 #webdd
 {
@@ -282,6 +284,10 @@ footer
 	{
 		height: 8%;
 		width: 100%;
+	}
+	.ser_img
+	{
+		grid-template-columns: auto;
 	}
 	#contact
 	{
